@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Chi Tiết</title>
+</head>
+<body>
+    <h1>Form Đăng Ký Chi Tiết</h1>
+    <form action="https://www.w3schools.com/action_page.php" target="_black" method="post">
+     <label for="ho_ten">Họ Tên: </label>
+     <br>
+     <input type="text" name="ho_ten" id="ho_ten" required >
+     <br>
+     <label for="email">Email: </label>
+     <br>
+     <input type="email" name="email" id="email" required>
+    <br>
+    <label for="password">Mật Khẩu: </label>
+    <br>
+    <input type="password" name="password" id="password" required>
+    <br>
+    <label for="password_again">Nhập Lại Mật Khẩu: </label>
+    <br>
+    <input type="password" name="password_again" id="password_again" required>
+    <br>
+    <label>Giới tính</label> 
+    <br>
+    <input type="radio" name="gioitinh" id="nam" value="Nam" > 
+    <label for="nam">Nam</label> 
+    <br>
+    <input type="radio" name="gioitinh" id="nu" value="nu"> 
+    <label for="nu">Nữ</label>
+    <br>
+    <input type="radio" name="gioitinh" id="khac" value="khac" >
+    <label for="khac">Khác</label>
+    <br>
+    <label for="choose">Quốc Gia</label>
+    <br>
+    <select name="quoc_gia" id="choose">
+        <option value="VietNam" selected>Việt Nam</option>
+        <option value="ThaiLan"> Thái Lan</option>
+        <option value="NhatBan">Nhật Ban</option>
+    </select>
+<br> 
+<br>
+    <input type="submit" value="Đăng Ký">
+    </form>
+</body>
+</html>
