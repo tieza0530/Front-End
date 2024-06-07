@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Đặt phòng khách sạn</title>
+</head>
+<body>
+    <h1>Form Đặt Phòng Khách Sạn</h1>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post">
+        <label for="ho_ten">Họ và tên:</label>
+        <br>
+        <input type="text" name="name" id="ho_ten">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="date_check_in">Ngày nhận phòng:</label>
+        <br>
+        <input type="date" name="date_check_in" id="date_check_in">
+        <br>
+        <label for="date_check_out">Ngày trả phòng:</label>
+        <br>
+        <input type="date" name="date_check_out" id="date_check_out">
+        <br>
+        <label for="loaiphong">Loại phòng:</label>
+       <br>
+        <select name="room" id="loaiphong">
+            <option value="phong_Vip">Phòng Vip</option>
+            <option value="phong_Thuong" selected>Phòng thường</option>
+            <option value="phong_Giadinh">Phòng Gia Đình</option>
+        </select>
+        <br>
+        <label for="note">Yêu cầu đặc biệt:</label>
+        <br>
+        <textarea name="yeucau" id="note" rows="4"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Đặt Phòng">
+    </form>
+</body>
+</html>
